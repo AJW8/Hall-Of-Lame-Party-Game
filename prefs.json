@@ -1,0 +1,51 @@
+{
+	"password": "password",
+	"min_players": "4",
+	"max_players": "8",
+	"round_1_titles": [
+		"Round 1 Title 1",
+		"Round 1 Title 2",
+		"Round 1 Title 3",
+		"Round 1 Title 4",
+		"Round 1 Title 5",
+		"Round 1 Title 6",
+		"Round 1 Title 7",
+		"Round 1 Title 8",
+		"Round 1 Title 9",
+		"Round 1 Title 10"
+	],
+	"round_2_titles": [
+		"Round 2 Title 1",
+		"Round 2 Title 2",
+		"Round 2 Title 3",
+		"Round 2 Title 4",
+		"Round 2 Title 5",
+		"Round 2 Title 6",
+		"Round 2 Title 7",
+		"Round 2 Title 8",
+		"Round 2 Title 9",
+		"Round 2 Title 10"
+	],
+	"final_round_titles": [
+		"Final Round Title 1",
+		"Final Round Title 2",
+		"Final Round Title 3",
+		"Final Round Title 4",
+		"Final Round Title 5",
+		"Final Round Title 6",
+		"Final Round Title 7",
+		"Final Round Title 8",
+		"Final Round Title 9",
+		"Final Round Title 10",
+		"Final Round Title 11",
+		"Final Round Title 12",
+		"Final Round Title 13",
+		"Final Round Title 14",
+		"Final Round Title 15",
+		"Final Round Title 16",
+		"Final Round Title 17",
+		"Final Round Title 18",
+		"Final Round Title 19",
+		"Final Round Title 20"
+	]
+}

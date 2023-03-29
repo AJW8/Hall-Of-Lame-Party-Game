@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Hall of Lame</title>
+		<meta name="viewport" content="user-scalable=no, initial-scale=1.0, maximum-scale=1.0, width=device-width">	
+		<link rel="stylesheet" href="css/bootstrap.min.css">
+		<link rel="stylesheet" href="css/bootstrap-theme.min.css">
+		<link rel="stylesheet" href="css/spinkit.css">
+		<script src="js/jquery.min.js"></script>
+		<script src="js/jquery.plugin.min.js"></script>
+		<script src="js/jquery.countdown.min.js"></script>
+		<script src="socket.io/socket.io.js"></script>
+		<script src="js/game/game.js"></script>
+	</head>
+	<body>
+		<div align="center">
+			<div id="title"></div>
+			<div id="lobby">Waiting for host to start the game.</div>
+			<div id="idle">HALL OF LAME</div>
+			<div id="nominate_player">
+				<div id="nominate_prompt"></div>
+				<div><button id="btn_nominate_player1" class="btn btn-default"></button></div>
+				<div><button id="btn_nominate_player2" class="btn btn-default"></button></div>
+				<div><button id="btn_nominate_player3" class="btn btn-default"></button></div>
+				<div><button id="btn_nominate_player4" class="btn btn-default"></button></div>
+				<div><button id="btn_nominate_player5" class="btn btn-default"></button></div>
+				<div><button id="btn_nominate_player6" class="btn btn-default"></button></div>
+				<div><button id="btn_nominate_player7" class="btn btn-default"></button></div>
+				<div><button id="btn_nominate_player8" class="btn btn-default"></button></div>
+			</div>
+			<div id="select_title">
+				<p>Select a title to nominate yourself for.</p>
+				<div><button id="btn_select_title1" class="btn btn-default"></button></div>
+				<div><button id="btn_select_title2" class="btn btn-default"></button></div>
+			</div>
+			<div id="finished_task">Thank you for your input. Please wait for the other players to finish.</div>
+			<div id="contest_title">
+				<div id="contest_prompt"></div>
+				<button id="btn_contest_title" class="btn btn-default">Contest!</button>
+			</div>
+			<div id="contested">You have contested the title.</div>
+			<div id="my_title">You chose this title. Please wait and give the other players a chance to contest.</div>
+			<div id="vote">
+				<div id="vote_prompt"></div>
+				<div><button id="btn_vote1" class="btn btn-default"></button></div>
+				<div><button id="btn_vote2" class="btn btn-default"></button></div>
+				<div><button id="btn_vote3" class="btn btn-default"></button></div>
+				<div><button id="btn_vote4" class="btn btn-default"></button></div>
+				<div><button id="btn_vote5" class="btn btn-default"></button></div>
+				<div><button id="btn_vote6" class="btn btn-default"></button></div>
+				<div><button id="btn_vote7" class="btn btn-default"></button></div>
+				<div><button id="btn_vote8" class="btn btn-default"></button></div>
+			</div>
+			<div id="voted">Thank you for voting!</div>
+			<div id="end">Thank you for playing!</div>
+		</div>
+	</body>
+</html>
