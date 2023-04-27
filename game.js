@@ -584,6 +584,7 @@ function Game(){
 		var player = false;
 		for(let i = 0; i < playerIds.length; i++) if(userId == playerIds[i]) player = i;
 		if(player === false || playerData[player].title === false || titleData[playerData[player].title].nominees.length) return;
+		if(title) titleData[playerData[player].title].title = title;
 		titleData[playerData[player].title].nominees = [{
 			player: player,
 			nominee: player,
